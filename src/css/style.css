@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --darkprimary: #383a18;
+    --primary: #4d5022;
+    --text: #000;
+}
+
+body {
+    font-family: "Libre Baskerville", serif;
+    color: var(--text);
+}
+
+.container {
+    width: 86%;
+    margin: auto;
+}
+
+.primary {
+    color: var(--primary);
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+h1:hover{
+    text-shadow: 2px 2px 4px #535353;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 400;
+    font-weight: 16px;
+}
+
+.primary_btn{
+    background-color: var(--primary);
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.primary_btn:hover{
+    background-color: var(--darkprimary);
+}
